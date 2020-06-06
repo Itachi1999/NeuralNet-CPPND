@@ -1,13 +1,13 @@
 # CPPND: Capstone Basic Neural Network Simulator Repo
 
-# SCOPE and Purpose of the Project
+### SCOPE and Purpose of the Project
 As the capstone project I created a basic Neural Network Simulator using CPP. In this simulator if you provide a training data, it will adapt and create a function according to the data.
 
 In this project I have given a XOR function training data where I simulated 2000 test cases of bitwise XOR between randomly generated bits every time
 
 You can give anny kind of training data you want.
 
-# Features and File Structure
+### Features and File Structure
 1) The src directory:
 	It contains all the cpp and header  files needed
     a) main.cpp : This is the main driver program of the system, it creates a neural net and creates a training data systematically trains the data and outputs the findings
@@ -17,7 +17,7 @@ You can give anny kind of training data you want.
 2) The data directory:
 	It contains the trainingData.txt file which contains the 2000 test cases of Randomly generated data of the bitwise XOR function. Users can include any training file with the proper syntax that at first it should contain a valid topology of the neural network and after this line, a series of input and output respectively with in: /data/" and "out: /data/" format respectively
     
-# The Rubric Review:
+### The Rubric Review:
 1) The submission must compile and run: The code runs without any compilation errors and exceptions
 
 2) The project demonstrates an understanding of C++ functions and control structures: The main function  in the main.cpp itself has function implementation along with proper flow of control (function definition can be seen in line 5)
@@ -38,7 +38,7 @@ From the output and the testing facility at the end of the function, we can say 
 This can be further improved by playing around with topology of the architecture and the _eta and _alpha private memeber varibales of the Neuron class
 
 
-## Dependencies for Running Locally
+### Dependencies for Running Locally
 * cmake >= 3.5
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
@@ -50,7 +50,7 @@ This can be further improved by playing around with topology of the architecture
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
-## Basic Build Instructions
+### Basic Build Instructions
 
 1. Clone this repo.
 2. Make a build directory in the top level directory: `mkdir build && cd build`
